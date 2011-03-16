@@ -1,0 +1,8 @@
+BouncedMailHandler
+potatoDie 2011
+
+A simple class to parse (and to some extent handle) bounced mails.
+It checks the body of the mail, to parse the mailaddress of the recipient.
+It helps you to show the addresses which failed, after which a administrator might check the address and delete the mail.
+
+I'd like an expert in mailaddresses and regular expressions to improve the parsing function. For instance, at the moment an address like <a@b.nl> is not found (because of the brackets).
